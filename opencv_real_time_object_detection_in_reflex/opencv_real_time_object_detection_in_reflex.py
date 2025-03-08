@@ -7,7 +7,7 @@ def index() -> rx.Component:
     return rx.el.div(
         rx.el.div(
             rx.el.h1(
-                "Camera Feed",
+                "Camera Feed with Face Detection",
                 class_name="text-3xl font-bold text-gray-800 mb-8"
             ),
             rx.el.div(
